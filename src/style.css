@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@500;700);
+
+body {
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas {
+    align-self: center;
+    margin: 0;
+    border: 1px solid black;
+    width: 90%;
+}
+
+.control-panel {
+    margin-top: 10px;
+    align-self: center;
+}
+
+footer {
+    padding: 0px 10px;
+    position: absolute;
+    bottom: 0;
+    font-size: smaller;
+}
